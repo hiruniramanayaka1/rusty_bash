@@ -1,6 +1,7 @@
 name: macos-latest
 
 on:
+  workflow_dispatch:
   push:
     branches: [ main, alpha, beta, sd/* ]
     paths: ['src/**', 'test/**', '!README.md' ]
